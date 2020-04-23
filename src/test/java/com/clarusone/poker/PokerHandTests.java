@@ -1,11 +1,33 @@
 package com.clarusone.poker;
 
+import com.clarusone.poker.exception.InvalidCardException;
+import com.clarusone.poker.exception.InvalidPokerHandException;
+import org.junit.Test;
+
 import static com.clarusone.poker.HandResult.*;
 import static org.junit.Assert.assertEquals;
 
-import org.junit.Test;
-
 public class PokerHandTests {
+
+    @Test(expected = InvalidPokerHandException.class)
+    public void invalidHandSizeMinusOne() {
+        new PokerHand("2H 3H 4H 5H");
+    }
+
+    @Test(expected = InvalidPokerHandException.class)
+    public void invalidHandSizePlusOne() {
+        new PokerHand("2H 3H 4H 5H AH KS");
+    }
+
+    @Test(expected = InvalidCardException.class)
+    public void invalidCardUnknownValue() {
+        new PokerHand("2H 3H 4H 5H ZH");
+    }
+
+    @Test(expected = InvalidCardException.class)
+    public void invalidCardUnknownSuit() {
+        new PokerHand("2H 3H 4H 5H KR");
+    }
 
     @Test
     public void highest_straight_flush_wins() {

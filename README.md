@@ -1,3 +1,14 @@
+## Implementation Notes
+
+The idea of this solution was that you can have multiple game pluggable game engines.
+There is no container of any kind required for local games, so I've implemented a simple hardcoded PokerEngineFactory and invoking it straight from the PokerHand class.
+It uses a singleton pattern to limit a number of instances. In the server side scenario I would implement it inside of a container and will wire all of this through Dependency Injection.
+A required flexibility achieved by using pluggable game engines and configurable set of hand valuation rules. 
+
+- All tests are passing, some new tests were added. 
+- Due to time constrains some methods not optimized and have more than 30 lines of code. 
+- More Javadocs would be also nice.   
+
 ## Task
 Implement the `int compareTo(PokerHand opponentHand)` method of the `PokerHand` class, such that two poker hands
 can be compared. This method should return
