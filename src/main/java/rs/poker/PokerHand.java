@@ -1,9 +1,9 @@
-package com.clarusone.poker;
+package rs.poker;
 
-import com.clarusone.poker.engine.PokerEngine;
-import com.clarusone.poker.engine.PokerEngineFactory;
-import com.clarusone.poker.exception.InvalidCardException;
-import com.clarusone.poker.exception.InvalidPokerHandException;
+import rs.poker.engine.PokerEngine;
+import rs.poker.engine.PokerEngineFactory;
+import rs.poker.exception.InvalidCardException;
+import rs.poker.exception.InvalidPokerHandException;
 
 import java.util.HashSet;
 import java.util.Set;

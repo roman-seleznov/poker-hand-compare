@@ -1,4 +1,4 @@
-package com.clarusone.poker.engine;
+package rs.poker.engine;
 
 /**
  * This factory may be extended in order to support a different PokerEngines

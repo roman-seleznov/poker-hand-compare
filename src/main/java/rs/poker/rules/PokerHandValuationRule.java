@@ -1,7 +1,7 @@
-package com.clarusone.poker.rules;
+package rs.poker.rules;
 
-import com.clarusone.poker.Card;
-import com.clarusone.poker.PokerHandValue;
+import rs.poker.Card;
+import rs.poker.PokerHandValue;
 
 import java.util.Set;
 

@@ -1,9 +1,9 @@
-package com.clarusone.poker.rules.texasholdem;
+package rs.poker.rules.texasholdem;
 
-import com.clarusone.poker.Card;
-import com.clarusone.poker.CardValue;
-import com.clarusone.poker.PokerHandValue;
-import com.clarusone.poker.rules.AbstractPokerHandValuationRule;
+import rs.poker.Card;
+import rs.poker.CardValue;
+import rs.poker.PokerHandValue;
+import rs.poker.rules.AbstractPokerHandValuationRule;
 
 import java.util.Collections;
 import java.util.SortedSet;

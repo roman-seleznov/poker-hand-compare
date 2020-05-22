@@ -1,4 +1,4 @@
-package com.clarusone.poker;
+package rs.poker;
 
 public enum HandResult {
     TIE(0),

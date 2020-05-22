@@ -1,4 +1,4 @@
-package com.clarusone.poker.rules.texasholdem;
+package rs.poker.rules.texasholdem;
 
 public enum PokerHandRank {
 

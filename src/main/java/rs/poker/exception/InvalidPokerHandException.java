@@ -1,4 +1,4 @@
-package com.clarusone.poker.exception;
+package rs.poker.exception;
 
 public class InvalidPokerHandException extends RuntimeException {
 

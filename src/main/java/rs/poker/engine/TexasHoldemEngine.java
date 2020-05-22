@@ -1,11 +1,11 @@
-package com.clarusone.poker.engine;
+package rs.poker.engine;
 
-import com.clarusone.poker.Card;
-import com.clarusone.poker.PokerHand;
-import com.clarusone.poker.PokerHandValue;
-import com.clarusone.poker.rules.PokerHandValuationRule;
-import com.clarusone.poker.rules.texasholdem.HighValueOrStraightValuationRule;
-import com.clarusone.poker.rules.texasholdem.ComboValidationRule;
+import rs.poker.Card;
+import rs.poker.PokerHand;
+import rs.poker.PokerHandValue;
+import rs.poker.rules.PokerHandValuationRule;
+import rs.poker.rules.texasholdem.HighValueOrStraightValuationRule;
+import rs.poker.rules.texasholdem.ComboValidationRule;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package com.clarusone.poker;
+package rs.poker;
 
 import java.util.Arrays;
 

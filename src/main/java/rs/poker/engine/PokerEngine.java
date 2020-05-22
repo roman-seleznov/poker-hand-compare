@@ -1,7 +1,7 @@
-package com.clarusone.poker.engine;
+package rs.poker.engine;
 
-import com.clarusone.poker.PokerHand;
-import com.clarusone.poker.PokerHandValue;
+import rs.poker.PokerHand;
+import rs.poker.PokerHandValue;
 
 public interface PokerEngine {
 
